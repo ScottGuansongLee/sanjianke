@@ -1,0 +1,84 @@
+body{
+	background-image: url(../img/1-bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#nav{
+	height: 80px;
+	background: white;
+	margin-top: 3%;
+	box-shadow: 0 2px 5px rgba(0,0,0,.3),
+	 0 -2px 5px rgba(0,0,0,.3);
+	position: relative;
+}
+#nav img{
+	position: absolute;
+	left: 18%;
+	bottom: 0;
+}
+#links {
+	position: absolute;
+	left: 35%;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+#links a{
+	margin-left: 70px;
+	font-family: "黑体";
+	font-size: 1.3em;
+	text-decoration: none;
+	color: black;
+	border: 10px solid white;
+}
+#links a:hover,
+#links a:active{
+	background: red;
+	border: 10px solid red;
+	border-radius: 5px;
+	color: white;
+}
+
+#content{
+	overflow: hidden;
+}
+#news{
+	position: relative;
+	float: left;
+}
+#secret{
+	display: none;
+	float: left;
+}
+#volunteer{
+	display: none;
+	float: left;
+}
+
+#news div{
+	width: 200px;
+	height: 30px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	/*border: 5px solid dodgerblue;
+	border-left: 10px solid dodgerblue;*/
+	text-align: center;
+	vertical-align: bottom;
+	background-color: dodgerblue;
+	color: white;
+}
+#news img{
+	width: 211px;
+	height: 53px;
+	position: absolute;
+	top: 50%;
+	left: 0px;
+}
+#secret img{
+	
+}
+#volunteer img{
+	
+}
